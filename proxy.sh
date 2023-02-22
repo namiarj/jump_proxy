@@ -74,5 +74,5 @@ do
 	then
 		connect_socks
 	fi
-	timeout 10 ktrigger ~/.ssh/sessions/ true
+	sleep 3
 done
